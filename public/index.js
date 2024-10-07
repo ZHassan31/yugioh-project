@@ -34,7 +34,7 @@ function displayCardData(data) {
 
                         <div id="stats">
                             <div><strong>Type:</strong> ${card.type}</div>
-                            <div><strong>Attribute:</strong> ${card.attribute}</div>
+                            <div><strong>Attribute:</strong> ${card.attribute || 'N/A'}</div>
                             <div><strong>Attack:</strong> ${card.atk || 'N/A'}</div>
                             <div><strong>Defense:</strong> ${card.def || 'N/A'}</div>
                             <div><strong>Level/Rank:</strong> ${card.level || 'N/A'}</div>
