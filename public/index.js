@@ -1,8 +1,9 @@
 // Async function to fetch card data
 async function fetchCardData() {
     const cardName = document.getElementById('cardName').value;
-    const apiUrl = `/cards?name=${encodeURIComponent(cardName)}`; // Updated to hit local endpoint
-    // const apiUrl = `https://db.ygoprodeck.com/api/v7/cardinfo.php?name=${encodeURIComponent(cardName)}`;
+    //server side rendering
+    // const apiUrl = `/cards?name=${encodeURIComponent(cardName)}`; // Updated to hit local endpoint
+    const apiUrl = `https://db.ygoprodeck.com/api/v7/cardinfo.php?name=${encodeURIComponent(cardName)}`;
 
     try {
         const response = await fetch(apiUrl);  // Await the fetch response
