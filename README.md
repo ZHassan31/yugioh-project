@@ -19,3 +19,14 @@ If the card doesn’t exist or something goes wrong, you’ll see an error messa
 - **HTML, CSS, JavaScript** (no frameworks required).  
 - **Fetch API** to get card data asynchronously.  
 - **YGOPRODeck API** for the card database.  
+
+## 🤝 Contributing
+
+If you’d like to try out or contribute to this project, here’s how you can get started:
+
+### Clone the repo
+
+```bash
+git clone https://github.com/your-username/yu-gi-oh-card-search.git
+cd yu-gi-oh-card-search
+'''
